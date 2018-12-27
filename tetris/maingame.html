@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Game Tetris</title>
+        <link rel='stylesheet' href='css/maingame.css' />
+        <link rel="icon" href="favicon.ico" type="image/ico">		
+    </head>
+    <body>
+        <audio id="clearsound" src="sound/pop.ogg" preload="auto"></audio>
+        <canvas width='300' height='600'></canvas>
+		<h3 align="center">SCORE</h3>
+		<table align="center">
+			<tr>
+				<th><h3>100</h3></th>
+			</tr>
+		</table>
+        <button id="playbutton" onclick="playButtonClicked();">Play</button> 
+		<button id="logout">Log out</button>
+        <script src='js/tetris.js'></script>
+        <script src='js/controller.js'></script>
+        <script src='js/render.js'></script>
+    </body>
+</html>
